@@ -1,0 +1,114 @@
+{
+  "filtered_root": "D:\\code\\PycharmProjects\\Prostate-Cancer-Multimodal-Segmentation\\DataAnalysis\\nnunet\\FilteredData",
+  "target_files": [
+    "ADC.nii",
+    "DWI.nii"
+  ],
+  "min_valid_value": 0.0,
+  "total_files": 724,
+  "changed_files": 10,
+  "files_with_neg32768": 3,
+  "total_negative_voxels_clipped": 58329,
+  "changed_examples": [
+    {
+      "path": "D:\\code\\PycharmProjects\\Prostate-Cancer-Multimodal-Segmentation\\DataAnalysis\\nnunet\\FilteredData\\PCA\\0000620450\\ADC.nii",
+      "changed": true,
+      "original_min": -32751.0,
+      "original_max": 32757.0,
+      "new_min": 0.0,
+      "new_max": 32757.0,
+      "negative_voxels": 2824,
+      "sentinel_neg32768": 0
+    },
+    {
+      "path": "D:\\code\\PycharmProjects\\Prostate-Cancer-Multimodal-Segmentation\\DataAnalysis\\nnunet\\FilteredData\\PCA\\0000827851\\ADC.nii",
+      "changed": true,
+      "original_min": -32761.0,
+      "original_max": 32763.0,
+      "new_min": 0.0,
+      "new_max": 32763.0,
+      "negative_voxels": 7414,
+      "sentinel_neg32768": 0
+    },
+    {
+      "path": "D:\\code\\PycharmProjects\\Prostate-Cancer-Multimodal-Segmentation\\DataAnalysis\\nnunet\\FilteredData\\PCA\\0000833047\\ADC.nii",
+      "changed": true,
+      "original_min": -32719.0,
+      "original_max": 32743.0,
+      "new_min": 0.0,
+      "new_max": 32743.0,
+      "negative_voxels": 1802,
+      "sentinel_neg32768": 0
+    },
+    {
+      "path": "D:\\code\\PycharmProjects\\Prostate-Cancer-Multimodal-Segmentation\\DataAnalysis\\nnunet\\FilteredData\\PCA\\0000176080\\DWI.nii",
+      "changed": true,
+      "original_min": -32761.0,
+      "original_max": 32748.0,
+      "new_min": 0.0,
+      "new_max": 32748.0,
+      "negative_voxels": 2737,
+      "sentinel_neg32768": 0
+    },
+    {
+      "path": "D:\\code\\PycharmProjects\\Prostate-Cancer-Multimodal-Segmentation\\DataAnalysis\\nnunet\\FilteredData\\PCA\\0000851187\\DWI.nii",
+      "changed": true,
+      "original_min": -32768.0,
+      "original_max": 32762.0,
+      "new_min": 0.0,
+      "new_max": 32762.0,
+      "negative_voxels": 2558,
+      "sentinel_neg32768": 1
+    },
+    {
+      "path": "D:\\code\\PycharmProjects\\Prostate-Cancer-Multimodal-Segmentation\\DataAnalysis\\nnunet\\FilteredData\\PCA\\0000858995\\DWI.nii",
+      "changed": true,
+      "original_min": -32763.0,
+      "original_max": 32243.0,
+      "new_min": 0.0,
+      "new_max": 32243.0,
+      "negative_voxels": 1786,
+      "sentinel_neg32768": 0
+    },
+    {
+      "path": "D:\\code\\PycharmProjects\\Prostate-Cancer-Multimodal-Segmentation\\DataAnalysis\\nnunet\\FilteredData\\PCA\\0000910550\\DWI.nii",
+      "changed": true,
+      "original_min": -32768.0,
+      "original_max": 32760.0,
+      "new_min": 0.0,
+      "new_max": 32760.0,
+      "negative_voxels": 7563,
+      "sentinel_neg32768": 1
+    },
+    {
+      "path": "D:\\code\\PycharmProjects\\Prostate-Cancer-Multimodal-Segmentation\\DataAnalysis\\nnunet\\FilteredData\\PCA\\0000915681\\DWI.nii",
+      "changed": true,
+      "original_min": -32768.0,
+      "original_max": 32657.0,
+      "new_min": 0.0,
+      "new_max": 32657.0,
+      "negative_voxels": 2367,
+      "sentinel_neg32768": 1
+    },
+    {
+      "path": "D:\\code\\PycharmProjects\\Prostate-Cancer-Multimodal-Segmentation\\DataAnalysis\\nnunet\\FilteredData\\PCA\\0000918371\\DWI.nii",
+      "changed": true,
+      "original_min": -32767.0,
+      "original_max": 32767.0,
+      "new_min": 0.0,
+      "new_max": 32767.0,
+      "negative_voxels": 18489,
+      "sentinel_neg32768": 0
+    },
+    {
+      "path": "D:\\code\\PycharmProjects\\Prostate-Cancer-Multimodal-Segmentation\\DataAnalysis\\nnunet\\FilteredData\\PCA\\0000919695\\DWI.nii",
+      "changed": true,
+      "original_min": -32767.0,
+      "original_max": 32761.0,
+      "new_min": 0.0,
+      "new_max": 32761.0,
+      "negative_voxels": 10789,
+      "sentinel_neg32768": 0
+    }
+  ]
+}

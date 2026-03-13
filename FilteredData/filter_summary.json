@@ -1,0 +1,30 @@
+{
+  "selected_cases": 362,
+  "rejected_cases": 97,
+  "selected_by_category": {
+    "BPH": 179,
+    "PCA": 183
+  },
+  "rejected_reason_counts": {
+    "ADC_all_zero": 61,
+    "DWI_all_zero": 62,
+    "roi_shape_mismatch": 56,
+    "roi_spacing_mismatch": 50,
+    "ADC_not_3d": 6,
+    "DWI_shape_mismatch": 7,
+    "T2 not fs_not_3d": 7,
+    "DWI_direction_mismatch": 4,
+    "T2 not fs_direction_mismatch": 3,
+    "roi_direction_mismatch": 3,
+    "roi_multilabel": 32,
+    "T2 not fs_shape_mismatch": 4,
+    "DWI_spacing_mismatch": 1,
+    "T2 not fs_spacing_mismatch": 1
+  },
+  "modalities_for_training": [
+    "ADC",
+    "DWI",
+    "T2 not fs"
+  ],
+  "label_file": "ROI.nii"
+}

@@ -1,0 +1,98 @@
+﻿category,case_id,reasons
+BPH,0000005610,ADC_all_zero | DWI_all_zero | roi_shape_mismatch | roi_spacing_mismatch
+BPH,0000006081,ADC_not_3d | DWI_shape_mismatch | T2 not fs_not_3d | roi_shape_mismatch
+BPH,0000015040,ADC_all_zero | DWI_all_zero | roi_shape_mismatch | roi_spacing_mismatch
+BPH,0000023688,ADC_all_zero | DWI_all_zero | roi_shape_mismatch | roi_spacing_mismatch
+BPH,0000029956,ADC_all_zero | DWI_all_zero | roi_shape_mismatch | roi_spacing_mismatch
+BPH,0000050862,ADC_all_zero | DWI_all_zero
+BPH,0000053950,ADC_all_zero | DWI_all_zero
+BPH,0000055773,ADC_all_zero | DWI_all_zero | roi_shape_mismatch | roi_spacing_mismatch
+BPH,0000078292,ADC_all_zero | DWI_all_zero | roi_shape_mismatch | roi_spacing_mismatch
+BPH,0000091779,ADC_all_zero | DWI_all_zero | roi_shape_mismatch | roi_spacing_mismatch
+BPH,0000116111,ADC_all_zero | DWI_all_zero | roi_shape_mismatch | roi_spacing_mismatch
+BPH,0000118185,ADC_all_zero | DWI_all_zero | roi_shape_mismatch | roi_spacing_mismatch
+BPH,0000146831,ADC_all_zero | DWI_all_zero | roi_shape_mismatch | roi_spacing_mismatch
+BPH,0000174669,ADC_not_3d | DWI_shape_mismatch | T2 not fs_not_3d | roi_shape_mismatch
+BPH,0000175288,DWI_direction_mismatch | T2 not fs_direction_mismatch | roi_direction_mismatch
+BPH,0000175625,ADC_all_zero | DWI_all_zero | roi_shape_mismatch | roi_spacing_mismatch
+BPH,0000191032,ADC_all_zero | DWI_all_zero | roi_shape_mismatch | roi_spacing_mismatch
+BPH,0000219983,ADC_all_zero | DWI_all_zero
+BPH,0000253467,ADC_all_zero | DWI_all_zero | roi_shape_mismatch | roi_spacing_mismatch
+BPH,0000276005,ADC_all_zero | DWI_all_zero | roi_shape_mismatch | roi_spacing_mismatch
+BPH,0000324834,ADC_all_zero | DWI_all_zero | roi_shape_mismatch | roi_spacing_mismatch
+BPH,0000335924,ADC_all_zero | DWI_all_zero | roi_shape_mismatch | roi_spacing_mismatch
+BPH,0000430653,ADC_all_zero | DWI_all_zero | roi_shape_mismatch | roi_spacing_mismatch
+BPH,0000530404,roi_multilabel
+BPH,0000531146,ADC_not_3d | DWI_shape_mismatch | T2 not fs_shape_mismatch | roi_shape_mismatch
+BPH,0000586369,ADC_all_zero | DWI_all_zero | roi_shape_mismatch | roi_spacing_mismatch
+BPH,0000587395,DWI_direction_mismatch | T2 not fs_direction_mismatch | roi_direction_mismatch
+BPH,0000605096,roi_multilabel
+BPH,0000607439,roi_multilabel
+BPH,0000609272,roi_multilabel | ADC_all_zero | DWI_all_zero | roi_shape_mismatch | roi_spacing_mismatch
+BPH,0000625985,roi_multilabel
+BPH,0000626657,roi_multilabel
+BPH,0000629449,roi_multilabel
+BPH,0000631260,roi_multilabel
+BPH,0000641810,roi_multilabel
+BPH,0000646396,roi_multilabel
+BPH,0000650235,roi_multilabel
+BPH,0000652871,roi_multilabel | ADC_all_zero | DWI_all_zero
+BPH,0000661930,ADC_all_zero | DWI_all_zero | roi_shape_mismatch | roi_spacing_mismatch
+BPH,0000708021,ADC_all_zero | DWI_all_zero
+BPH,0000733896,ADC_all_zero | DWI_all_zero
+BPH,0000769810,ADC_not_3d | DWI_shape_mismatch | T2 not fs_not_3d | roi_shape_mismatch
+BPH,0000831893,ADC_all_zero | DWI_all_zero | roi_shape_mismatch | roi_spacing_mismatch
+BPH,0000841616,ADC_all_zero | DWI_all_zero | roi_shape_mismatch | roi_spacing_mismatch
+BPH,0000857651,ADC_all_zero | roi_shape_mismatch | roi_spacing_mismatch
+BPH,0000957649,roi_multilabel
+BPH,0000959518,roi_multilabel
+BPH,0000960809,roi_multilabel | ADC_all_zero | DWI_all_zero
+BPH,0000965860,roi_multilabel
+BPH,0000987054,ADC_not_3d | DWI_shape_mismatch | T2 not fs_not_3d | roi_shape_mismatch
+BPH,0000997085,T2 not fs_not_3d | T2 not fs_shape_mismatch
+BPH,0001005614,roi_multilabel
+BPH,0001008561,roi_multilabel
+BPH,0001023852,roi_multilabel
+BPH,0001029966,roi_multilabel | ADC_all_zero | DWI_all_zero | roi_shape_mismatch | roi_spacing_mismatch
+BPH,0001033210,roi_multilabel | ADC_all_zero | DWI_all_zero | roi_shape_mismatch | roi_spacing_mismatch
+BPH,0001041935,ADC_all_zero | DWI_all_zero | roi_shape_mismatch | roi_spacing_mismatch
+BPH,0001059910,ADC_all_zero | DWI_all_zero | roi_shape_mismatch | roi_spacing_mismatch
+BPH,0001066533,roi_multilabel | ADC_all_zero | DWI_all_zero | roi_shape_mismatch | roi_spacing_mismatch
+BPH,0001075087,roi_multilabel | ADC_all_zero | DWI_all_zero
+BPH,0001077461,roi_multilabel | ADC_all_zero | DWI_all_zero
+PCA,0000002645,roi_multilabel
+PCA,0000010702,DWI_all_zero
+PCA,0000028383,ADC_all_zero | DWI_all_zero | roi_shape_mismatch | roi_spacing_mismatch
+PCA,0000050252,ADC_all_zero | DWI_all_zero | roi_shape_mismatch | roi_spacing_mismatch
+PCA,0000051529,DWI_direction_mismatch
+PCA,0000061439,ADC_all_zero | DWI_all_zero | roi_shape_mismatch | roi_spacing_mismatch
+PCA,0000109785,DWI_all_zero
+PCA,0000141978,DWI_direction_mismatch | T2 not fs_direction_mismatch
+PCA,0000192450,T2 not fs_not_3d | T2 not fs_shape_mismatch
+PCA,0000193687,ADC_all_zero | DWI_all_zero
+PCA,0000214959,roi_multilabel
+PCA,0000232439,ADC_all_zero | DWI_all_zero | roi_shape_mismatch | roi_spacing_mismatch
+PCA,0000313298,ADC_all_zero | DWI_all_zero | roi_shape_mismatch | roi_spacing_mismatch
+PCA,0000320504,ADC_all_zero | DWI_all_zero | roi_shape_mismatch | roi_spacing_mismatch
+PCA,0000326945,ADC_all_zero | DWI_all_zero | roi_shape_mismatch | roi_spacing_mismatch | roi_direction_mismatch
+PCA,0000377139,ADC_all_zero | DWI_all_zero | roi_shape_mismatch | roi_spacing_mismatch
+PCA,0000379327,ADC_all_zero | DWI_all_zero | roi_shape_mismatch | roi_spacing_mismatch
+PCA,0000534154,ADC_all_zero | DWI_all_zero | roi_shape_mismatch | roi_spacing_mismatch
+PCA,0000540235,roi_multilabel
+PCA,0000562898,roi_multilabel
+PCA,0000578672,ADC_all_zero | DWI_all_zero | roi_shape_mismatch | roi_spacing_mismatch
+PCA,0000583414,ADC_all_zero | DWI_all_zero | roi_shape_mismatch | roi_spacing_mismatch
+PCA,0000587859,roi_multilabel
+PCA,0000591904,roi_multilabel | ADC_all_zero | DWI_all_zero | roi_shape_mismatch | roi_spacing_mismatch
+PCA,0000594029,roi_multilabel | ADC_all_zero | DWI_all_zero | roi_shape_mismatch | roi_spacing_mismatch
+PCA,0000596224,roi_multilabel
+PCA,0000614264,ADC_all_zero | DWI_all_zero | roi_shape_mismatch | roi_spacing_mismatch
+PCA,0000931242,ADC_all_zero | DWI_all_zero | roi_shape_mismatch | roi_spacing_mismatch
+PCA,0000972681,ADC_all_zero | DWI_all_zero | roi_shape_mismatch | roi_spacing_mismatch
+PCA,0000980621,ADC_not_3d | DWI_shape_mismatch | T2 not fs_not_3d | roi_shape_mismatch
+PCA,0001008187,ADC_all_zero | DWI_all_zero | roi_shape_mismatch | roi_spacing_mismatch
+PCA,0001029952,ADC_all_zero | DWI_all_zero | roi_shape_mismatch | roi_spacing_mismatch
+PCA,0001045985,ADC_all_zero | DWI_all_zero | roi_shape_mismatch | roi_spacing_mismatch
+PCA,0001072424,ADC_all_zero | DWI_all_zero
+PCA,0001083956,ADC_all_zero | DWI_all_zero | DWI_shape_mismatch | DWI_spacing_mismatch | T2 not fs_shape_mismatch | T2 not fs_spacing_mismatch | roi_shape_mismatch | roi_spacing_mismatch
+PCA,0001084421,ADC_all_zero | DWI_all_zero | roi_shape_mismatch | roi_spacing_mismatch

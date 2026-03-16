@@ -53,12 +53,15 @@ def save_label_as_uint8_binary(src: Path, dst: Path) -> None:
     nib.save(output, str(dst))
 
 
-def collect_cases(filtered_root: Path) -> List[Dict]:
+def collect_cases(filtered_root: Path, category_filter: str = None) -> List[Dict]:
     rows: List[Dict] = []
     for category_dir in sorted(filtered_root.iterdir()):
         if not category_dir.is_dir():
             continue
         category = category_dir.name
+        # 如果指定了类别过滤，只处理匹配的类别
+        if category_filter and category != category_filter:
+            continue
         for case_dir in sorted(category_dir.iterdir()):
             if not case_dir.is_dir():
                 continue
@@ -97,6 +100,7 @@ def main() -> None:
     parser.add_argument("--output-root", type=Path, default=DEFAULT_OUTPUT_ROOT)
     parser.add_argument("--dataset-id", type=int, default=DEFAULT_DATASET_ID)
     parser.add_argument("--dataset-name", type=str, default=DEFAULT_DATASET_NAME)
+    parser.add_argument("--category", type=str, default=None, help="Filter by category (e.g., PCA or BPH).")
     parser.add_argument("--clean-output", action="store_true", help="Delete target dataset directory before conversion.")
     args = parser.parse_args()
 
@@ -115,9 +119,9 @@ def main() -> None:
     images_tr.mkdir(parents=True, exist_ok=True)
     labels_tr.mkdir(parents=True, exist_ok=True)
 
-    cases = collect_cases(filtered_root)
+    cases = collect_cases(filtered_root, category_filter=args.category)
     if not cases:
-        raise RuntimeError(f"No cases found under {filtered_root}")
+        raise RuntimeError(f"No cases found under {filtered_root}" + (f" with category={args.category}" if args.category else ""))
 
     summary_rows: List[Dict] = []
 

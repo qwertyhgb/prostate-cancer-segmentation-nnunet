@@ -1,0 +1,618 @@
+{
+    "foreground_mean": {
+        "Dice": 0.5181512273215093,
+        "FN": 399.97297297297297,
+        "FP": 740.1621621621622,
+        "IoU": 0.4175039057716037,
+        "TN": 712770.4594594594,
+        "TP": 1494.8108108108108,
+        "n_pred": 2234.972972972973,
+        "n_ref": 1894.7837837837837
+    },
+    "mean": {
+        "1": {
+            "Dice": 0.5181512273215093,
+            "FN": 399.97297297297297,
+            "FP": 740.1621621621622,
+            "IoU": 0.4175039057716037,
+            "TN": 712770.4594594594,
+            "TP": 1494.8108108108108,
+            "n_pred": 2234.972972972973,
+            "n_ref": 1894.7837837837837
+        }
+    },
+    "metric_per_case": [
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8688046647230321,
+                    "FN": 32,
+                    "FP": 13,
+                    "IoU": 0.7680412371134021,
+                    "TN": 607006,
+                    "TP": 149,
+                    "n_pred": 162,
+                    "n_ref": 181
+                }
+            },
+            "prediction_file": "/opt/data/private/lm/projects/nnunet/nnUNet_results/Dataset102_ProstatePCA/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/validation/PCA_0000025778.nii.gz",
+            "reference_file": "/opt/data/private/lm/projects/nnunet/nnUNet_preprocessed/Dataset102_ProstatePCA/gt_segmentations/PCA_0000025778.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.22916666666666666,
+                    "FN": 135,
+                    "FP": 13,
+                    "IoU": 0.12941176470588237,
+                    "TN": 97030,
+                    "TP": 22,
+                    "n_pred": 35,
+                    "n_ref": 157
+                }
+            },
+            "prediction_file": "/opt/data/private/lm/projects/nnunet/nnUNet_results/Dataset102_ProstatePCA/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/validation/PCA_0000054981.nii.gz",
+            "reference_file": "/opt/data/private/lm/projects/nnunet/nnUNet_preprocessed/Dataset102_ProstatePCA/gt_segmentations/PCA_0000054981.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.6253333333333333,
+                    "FN": 100,
+                    "FP": 462,
+                    "IoU": 0.45489815712900095,
+                    "TN": 1112169,
+                    "TP": 469,
+                    "n_pred": 931,
+                    "n_ref": 569
+                }
+            },
+            "prediction_file": "/opt/data/private/lm/projects/nnunet/nnUNet_results/Dataset102_ProstatePCA/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/validation/PCA_0000057164.nii.gz",
+            "reference_file": "/opt/data/private/lm/projects/nnunet/nnUNet_preprocessed/Dataset102_ProstatePCA/gt_segmentations/PCA_0000057164.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.15891472868217055,
+                    "FN": 270,
+                    "FP": 164,
+                    "IoU": 0.0863157894736842,
+                    "TN": 606725,
+                    "TP": 41,
+                    "n_pred": 205,
+                    "n_ref": 311
+                }
+            },
+            "prediction_file": "/opt/data/private/lm/projects/nnunet/nnUNet_results/Dataset102_ProstatePCA/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/validation/PCA_0000102138.nii.gz",
+            "reference_file": "/opt/data/private/lm/projects/nnunet/nnUNet_preprocessed/Dataset102_ProstatePCA/gt_segmentations/PCA_0000102138.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.4793106390239741,
+                    "FN": 1207,
+                    "FP": 4896,
+                    "IoU": 0.31519299820466784,
+                    "TN": 598288,
+                    "TP": 2809,
+                    "n_pred": 7705,
+                    "n_ref": 4016
+                }
+            },
+            "prediction_file": "/opt/data/private/lm/projects/nnunet/nnUNet_results/Dataset102_ProstatePCA/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/validation/PCA_0000113837.nii.gz",
+            "reference_file": "/opt/data/private/lm/projects/nnunet/nnUNet_preprocessed/Dataset102_ProstatePCA/gt_segmentations/PCA_0000113837.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.0,
+                    "FN": 66,
+                    "FP": 0,
+                    "IoU": 0.0,
+                    "TN": 97134,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 66
+                }
+            },
+            "prediction_file": "/opt/data/private/lm/projects/nnunet/nnUNet_results/Dataset102_ProstatePCA/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/validation/PCA_0000147428.nii.gz",
+            "reference_file": "/opt/data/private/lm/projects/nnunet/nnUNet_preprocessed/Dataset102_ProstatePCA/gt_segmentations/PCA_0000147428.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7120980091883614,
+                    "FN": 318,
+                    "FP": 58,
+                    "IoU": 0.5529131985731273,
+                    "TN": 1112359,
+                    "TP": 465,
+                    "n_pred": 523,
+                    "n_ref": 783
+                }
+            },
+            "prediction_file": "/opt/data/private/lm/projects/nnunet/nnUNet_results/Dataset102_ProstatePCA/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/validation/PCA_0000176080.nii.gz",
+            "reference_file": "/opt/data/private/lm/projects/nnunet/nnUNet_preprocessed/Dataset102_ProstatePCA/gt_segmentations/PCA_0000176080.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.0,
+                    "FN": 955,
+                    "FP": 439,
+                    "IoU": 0.0,
+                    "TN": 605806,
+                    "TP": 0,
+                    "n_pred": 439,
+                    "n_ref": 955
+                }
+            },
+            "prediction_file": "/opt/data/private/lm/projects/nnunet/nnUNet_results/Dataset102_ProstatePCA/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/validation/PCA_0000177171.nii.gz",
+            "reference_file": "/opt/data/private/lm/projects/nnunet/nnUNet_preprocessed/Dataset102_ProstatePCA/gt_segmentations/PCA_0000177171.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.07065217391304347,
+                    "FN": 72,
+                    "FP": 270,
+                    "IoU": 0.036619718309859155,
+                    "TN": 527645,
+                    "TP": 13,
+                    "n_pred": 283,
+                    "n_ref": 85
+                }
+            },
+            "prediction_file": "/opt/data/private/lm/projects/nnunet/nnUNet_results/Dataset102_ProstatePCA/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/validation/PCA_0000193495.nii.gz",
+            "reference_file": "/opt/data/private/lm/projects/nnunet/nnUNet_preprocessed/Dataset102_ProstatePCA/gt_segmentations/PCA_0000193495.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8230022404779687,
+                    "FN": 218,
+                    "FP": 256,
+                    "IoU": 0.699238578680203,
+                    "TN": 526424,
+                    "TP": 1102,
+                    "n_pred": 1358,
+                    "n_ref": 1320
+                }
+            },
+            "prediction_file": "/opt/data/private/lm/projects/nnunet/nnUNet_results/Dataset102_ProstatePCA/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/validation/PCA_0000201038.nii.gz",
+            "reference_file": "/opt/data/private/lm/projects/nnunet/nnUNet_preprocessed/Dataset102_ProstatePCA/gt_segmentations/PCA_0000201038.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8935048829638815,
+                    "FN": 431,
+                    "FP": 256,
+                    "IoU": 0.8075091061922107,
+                    "TN": 524431,
+                    "TP": 2882,
+                    "n_pred": 3138,
+                    "n_ref": 3313
+                }
+            },
+            "prediction_file": "/opt/data/private/lm/projects/nnunet/nnUNet_results/Dataset102_ProstatePCA/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/validation/PCA_0000244361.nii.gz",
+            "reference_file": "/opt/data/private/lm/projects/nnunet/nnUNet_preprocessed/Dataset102_ProstatePCA/gt_segmentations/PCA_0000244361.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7651109410864575,
+                    "FN": 325,
+                    "FP": 289,
+                    "IoU": 0.6195786864931846,
+                    "TN": 605586,
+                    "TP": 1000,
+                    "n_pred": 1289,
+                    "n_ref": 1325
+                }
+            },
+            "prediction_file": "/opt/data/private/lm/projects/nnunet/nnUNet_results/Dataset102_ProstatePCA/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/validation/PCA_0000245842.nii.gz",
+            "reference_file": "/opt/data/private/lm/projects/nnunet/nnUNet_preprocessed/Dataset102_ProstatePCA/gt_segmentations/PCA_0000245842.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7426160337552743,
+                    "FN": 643,
+                    "FP": 821,
+                    "IoU": 0.5906040268456376,
+                    "TN": 524424,
+                    "TP": 2112,
+                    "n_pred": 2933,
+                    "n_ref": 2755
+                }
+            },
+            "prediction_file": "/opt/data/private/lm/projects/nnunet/nnUNet_results/Dataset102_ProstatePCA/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/validation/PCA_0000320095.nii.gz",
+            "reference_file": "/opt/data/private/lm/projects/nnunet/nnUNet_preprocessed/Dataset102_ProstatePCA/gt_segmentations/PCA_0000320095.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.0,
+                    "FN": 108,
+                    "FP": 0,
+                    "IoU": 0.0,
+                    "TN": 1064852,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 108
+                }
+            },
+            "prediction_file": "/opt/data/private/lm/projects/nnunet/nnUNet_results/Dataset102_ProstatePCA/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/validation/PCA_0000395297.nii.gz",
+            "reference_file": "/opt/data/private/lm/projects/nnunet/nnUNet_preprocessed/Dataset102_ProstatePCA/gt_segmentations/PCA_0000395297.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.5653710247349824,
+                    "FN": 183,
+                    "FP": 63,
+                    "IoU": 0.39408866995073893,
+                    "TN": 76394,
+                    "TP": 160,
+                    "n_pred": 223,
+                    "n_ref": 343
+                }
+            },
+            "prediction_file": "/opt/data/private/lm/projects/nnunet/nnUNet_results/Dataset102_ProstatePCA/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/validation/PCA_0000432592.nii.gz",
+            "reference_file": "/opt/data/private/lm/projects/nnunet/nnUNet_preprocessed/Dataset102_ProstatePCA/gt_segmentations/PCA_0000432592.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.920128570562193,
+                    "FN": 575,
+                    "FP": 742,
+                    "IoU": 0.8520723351679209,
+                    "TN": 519097,
+                    "TP": 7586,
+                    "n_pred": 8328,
+                    "n_ref": 8161
+                }
+            },
+            "prediction_file": "/opt/data/private/lm/projects/nnunet/nnUNet_results/Dataset102_ProstatePCA/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/validation/PCA_0000439756.nii.gz",
+            "reference_file": "/opt/data/private/lm/projects/nnunet/nnUNet_preprocessed/Dataset102_ProstatePCA/gt_segmentations/PCA_0000439756.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8661270236612703,
+                    "FN": 719,
+                    "FP": 1861,
+                    "IoU": 0.7638660076880834,
+                    "TN": 517074,
+                    "TP": 8346,
+                    "n_pred": 10207,
+                    "n_ref": 9065
+                }
+            },
+            "prediction_file": "/opt/data/private/lm/projects/nnunet/nnUNet_results/Dataset102_ProstatePCA/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/validation/PCA_0000502281.nii.gz",
+            "reference_file": "/opt/data/private/lm/projects/nnunet/nnUNet_preprocessed/Dataset102_ProstatePCA/gt_segmentations/PCA_0000502281.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.6117734724292101,
+                    "FN": 663,
+                    "FP": 379,
+                    "IoU": 0.4406870638754697,
+                    "TN": 1063097,
+                    "TP": 821,
+                    "n_pred": 1200,
+                    "n_ref": 1484
+                }
+            },
+            "prediction_file": "/opt/data/private/lm/projects/nnunet/nnUNet_results/Dataset102_ProstatePCA/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/validation/PCA_0000505209.nii.gz",
+            "reference_file": "/opt/data/private/lm/projects/nnunet/nnUNet_preprocessed/Dataset102_ProstatePCA/gt_segmentations/PCA_0000505209.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.515828677839851,
+                    "FN": 465,
+                    "FP": 55,
+                    "IoU": 0.3475533249686324,
+                    "TN": 606403,
+                    "TP": 277,
+                    "n_pred": 332,
+                    "n_ref": 742
+                }
+            },
+            "prediction_file": "/opt/data/private/lm/projects/nnunet/nnUNet_results/Dataset102_ProstatePCA/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/validation/PCA_0000511678.nii.gz",
+            "reference_file": "/opt/data/private/lm/projects/nnunet/nnUNet_preprocessed/Dataset102_ProstatePCA/gt_segmentations/PCA_0000511678.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7972027972027972,
+                    "FN": 13,
+                    "FP": 16,
+                    "IoU": 0.6627906976744186,
+                    "TN": 1064874,
+                    "TP": 57,
+                    "n_pred": 73,
+                    "n_ref": 70
+                }
+            },
+            "prediction_file": "/opt/data/private/lm/projects/nnunet/nnUNet_results/Dataset102_ProstatePCA/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/validation/PCA_0000530064.nii.gz",
+            "reference_file": "/opt/data/private/lm/projects/nnunet/nnUNet_preprocessed/Dataset102_ProstatePCA/gt_segmentations/PCA_0000530064.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7123287671232876,
+                    "FN": 36,
+                    "FP": 27,
+                    "IoU": 0.5531914893617021,
+                    "TN": 1064819,
+                    "TP": 78,
+                    "n_pred": 105,
+                    "n_ref": 114
+                }
+            },
+            "prediction_file": "/opt/data/private/lm/projects/nnunet/nnUNet_results/Dataset102_ProstatePCA/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/validation/PCA_0000537887.nii.gz",
+            "reference_file": "/opt/data/private/lm/projects/nnunet/nnUNet_preprocessed/Dataset102_ProstatePCA/gt_segmentations/PCA_0000537887.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.896969696969697,
+                    "FN": 30,
+                    "FP": 4,
+                    "IoU": 0.8131868131868132,
+                    "TN": 607018,
+                    "TP": 148,
+                    "n_pred": 152,
+                    "n_ref": 178
+                }
+            },
+            "prediction_file": "/opt/data/private/lm/projects/nnunet/nnUNet_results/Dataset102_ProstatePCA/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/validation/PCA_0000596511.nii.gz",
+            "reference_file": "/opt/data/private/lm/projects/nnunet/nnUNet_preprocessed/Dataset102_ProstatePCA/gt_segmentations/PCA_0000596511.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.6084425036390102,
+                    "FN": 259,
+                    "FP": 10,
+                    "IoU": 0.4372384937238494,
+                    "TN": 1330722,
+                    "TP": 209,
+                    "n_pred": 219,
+                    "n_ref": 468
+                }
+            },
+            "prediction_file": "/opt/data/private/lm/projects/nnunet/nnUNet_results/Dataset102_ProstatePCA/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/validation/PCA_0000620450.nii.gz",
+            "reference_file": "/opt/data/private/lm/projects/nnunet/nnUNet_preprocessed/Dataset102_ProstatePCA/gt_segmentations/PCA_0000620450.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.0,
+                    "FN": 1532,
+                    "FP": 7621,
+                    "IoU": 0.0,
+                    "TN": 518847,
+                    "TP": 0,
+                    "n_pred": 7621,
+                    "n_ref": 1532
+                }
+            },
+            "prediction_file": "/opt/data/private/lm/projects/nnunet/nnUNet_results/Dataset102_ProstatePCA/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/validation/PCA_0000669849.nii.gz",
+            "reference_file": "/opt/data/private/lm/projects/nnunet/nnUNet_preprocessed/Dataset102_ProstatePCA/gt_segmentations/PCA_0000669849.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8003857280617165,
+                    "FN": 1096,
+                    "FP": 767,
+                    "IoU": 0.6672025723472669,
+                    "TN": 522402,
+                    "TP": 3735,
+                    "n_pred": 4502,
+                    "n_ref": 4831
+                }
+            },
+            "prediction_file": "/opt/data/private/lm/projects/nnunet/nnUNet_results/Dataset102_ProstatePCA/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/validation/PCA_0000734456.nii.gz",
+            "reference_file": "/opt/data/private/lm/projects/nnunet/nnUNet_preprocessed/Dataset102_ProstatePCA/gt_segmentations/PCA_0000734456.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7855711422845691,
+                    "FN": 148,
+                    "FP": 66,
+                    "IoU": 0.6468646864686468,
+                    "TN": 527394,
+                    "TP": 392,
+                    "n_pred": 458,
+                    "n_ref": 540
+                }
+            },
+            "prediction_file": "/opt/data/private/lm/projects/nnunet/nnUNet_results/Dataset102_ProstatePCA/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/validation/PCA_0000751856.nii.gz",
+            "reference_file": "/opt/data/private/lm/projects/nnunet/nnUNet_preprocessed/Dataset102_ProstatePCA/gt_segmentations/PCA_0000751856.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8756269876843611,
+                    "FN": 1855,
+                    "FP": 3972,
+                    "IoU": 0.7787691256311933,
+                    "TN": 1086861,
+                    "TP": 20512,
+                    "n_pred": 24484,
+                    "n_ref": 22367
+                }
+            },
+            "prediction_file": "/opt/data/private/lm/projects/nnunet/nnUNet_results/Dataset102_ProstatePCA/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/validation/PCA_0000768488.nii.gz",
+            "reference_file": "/opt/data/private/lm/projects/nnunet/nnUNet_preprocessed/Dataset102_ProstatePCA/gt_segmentations/PCA_0000768488.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.0,
+                    "FN": 52,
+                    "FP": 0,
+                    "IoU": 0.0,
+                    "TN": 1113148,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 52
+                }
+            },
+            "prediction_file": "/opt/data/private/lm/projects/nnunet/nnUNet_results/Dataset102_ProstatePCA/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/validation/PCA_0000858995.nii.gz",
+            "reference_file": "/opt/data/private/lm/projects/nnunet/nnUNet_preprocessed/Dataset102_ProstatePCA/gt_segmentations/PCA_0000858995.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8190954773869347,
+                    "FN": 15,
+                    "FP": 57,
+                    "IoU": 0.6936170212765957,
+                    "TN": 1064725,
+                    "TP": 163,
+                    "n_pred": 220,
+                    "n_ref": 178
+                }
+            },
+            "prediction_file": "/opt/data/private/lm/projects/nnunet/nnUNet_results/Dataset102_ProstatePCA/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/validation/PCA_0000887724.nii.gz",
+            "reference_file": "/opt/data/private/lm/projects/nnunet/nnUNet_preprocessed/Dataset102_ProstatePCA/gt_segmentations/PCA_0000887724.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8483290488431876,
+                    "FN": 56,
+                    "FP": 3,
+                    "IoU": 0.7366071428571429,
+                    "TN": 1330976,
+                    "TP": 165,
+                    "n_pred": 168,
+                    "n_ref": 221
+                }
+            },
+            "prediction_file": "/opt/data/private/lm/projects/nnunet/nnUNet_results/Dataset102_ProstatePCA/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/validation/PCA_0000903045.nii.gz",
+            "reference_file": "/opt/data/private/lm/projects/nnunet/nnUNet_preprocessed/Dataset102_ProstatePCA/gt_segmentations/PCA_0000903045.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.2411504424778761,
+                    "FN": 606,
+                    "FP": 80,
+                    "IoU": 0.1371069182389937,
+                    "TN": 606405,
+                    "TP": 109,
+                    "n_pred": 189,
+                    "n_ref": 715
+                }
+            },
+            "prediction_file": "/opt/data/private/lm/projects/nnunet/nnUNet_results/Dataset102_ProstatePCA/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/validation/PCA_0000918371.nii.gz",
+            "reference_file": "/opt/data/private/lm/projects/nnunet/nnUNet_preprocessed/Dataset102_ProstatePCA/gt_segmentations/PCA_0000918371.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.0,
+                    "FN": 321,
+                    "FP": 0,
+                    "IoU": 0.0,
+                    "TN": 606879,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 321
+                }
+            },
+            "prediction_file": "/opt/data/private/lm/projects/nnunet/nnUNet_results/Dataset102_ProstatePCA/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/validation/PCA_0000919695.nii.gz",
+            "reference_file": "/opt/data/private/lm/projects/nnunet/nnUNet_preprocessed/Dataset102_ProstatePCA/gt_segmentations/PCA_0000919695.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.0,
+                    "FN": 831,
+                    "FP": 707,
+                    "IoU": 0.0,
+                    "TN": 605662,
+                    "TP": 0,
+                    "n_pred": 707,
+                    "n_ref": 831
+                }
+            },
+            "prediction_file": "/opt/data/private/lm/projects/nnunet/nnUNet_results/Dataset102_ProstatePCA/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/validation/PCA_0000958648.nii.gz",
+            "reference_file": "/opt/data/private/lm/projects/nnunet/nnUNet_preprocessed/Dataset102_ProstatePCA/gt_segmentations/PCA_0000958648.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.0,
+                    "FN": 223,
+                    "FP": 668,
+                    "IoU": 0.0,
+                    "TN": 606309,
+                    "TP": 0,
+                    "n_pred": 668,
+                    "n_ref": 223
+                }
+            },
+            "prediction_file": "/opt/data/private/lm/projects/nnunet/nnUNet_results/Dataset102_ProstatePCA/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/validation/PCA_0000960087.nii.gz",
+            "reference_file": "/opt/data/private/lm/projects/nnunet/nnUNet_preprocessed/Dataset102_ProstatePCA/gt_segmentations/PCA_0000960087.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.6883116883116883,
+                    "FN": 11,
+                    "FP": 37,
+                    "IoU": 0.5247524752475248,
+                    "TN": 1113099,
+                    "TP": 53,
+                    "n_pred": 90,
+                    "n_ref": 64
+                }
+            },
+            "prediction_file": "/opt/data/private/lm/projects/nnunet/nnUNet_results/Dataset102_ProstatePCA/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/validation/PCA_0000964362.nii.gz",
+            "reference_file": "/opt/data/private/lm/projects/nnunet/nnUNet_preprocessed/Dataset102_ProstatePCA/gt_segmentations/PCA_0000964362.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.49059052563270605,
+                    "FN": 133,
+                    "FP": 2222,
+                    "IoU": 0.3250214961306965,
+                    "TN": 603711,
+                    "TP": 1134,
+                    "n_pred": 3356,
+                    "n_ref": 1267
+                }
+            },
+            "prediction_file": "/opt/data/private/lm/projects/nnunet/nnUNet_results/Dataset102_ProstatePCA/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/validation/PCA_0001002107.nii.gz",
+            "reference_file": "/opt/data/private/lm/projects/nnunet/nnUNet_preprocessed/Dataset102_ProstatePCA/gt_segmentations/PCA_0001002107.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7598475222363406,
+                    "FN": 97,
+                    "FP": 92,
+                    "IoU": 0.6127049180327869,
+                    "TN": 606712,
+                    "TP": 299,
+                    "n_pred": 391,
+                    "n_ref": 396
+                }
+            },
+            "prediction_file": "/opt/data/private/lm/projects/nnunet/nnUNet_results/Dataset102_ProstatePCA/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/validation/PCA_0001012940.nii.gz",
+            "reference_file": "/opt/data/private/lm/projects/nnunet/nnUNet_preprocessed/Dataset102_ProstatePCA/gt_segmentations/PCA_0001012940.nii.gz"
+        }
+    ]
+}
